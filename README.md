@@ -1,93 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pljad mustad mehed</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        header {
+            background: url('download.jpg') no-repeat center center/cover;
+            height: 250px; 
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
+        /* Väiksem pilt */
+        .image-wrapper img {
+            max-width: 200px; /* Piirab pildi laius 200px juurde */
+            height: auto;     /* Säilitab pildi kuvasuhte */
+        }
+    </style>
+</head>
+<body>
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
+<header>
+    <h1>Pljad mustad mehed</h1>
+    <p>Jarmo Prikmann</p>
+    <a href="#" class="button">Suvaline nupp</a>
+</header>
 
-nav {
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
+<nav>
+    <a href="#">Avaleht</a>
+    <a href="https://www.youtube.com/watch?v=_-h5LinNFPs" target="_blank">U gay</a>
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+    <a href="https://cornhub.website" target="_blank">Sigma type shit</a>
+</nav>
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 14px;
-}
+<main>
+    <h2>Tervist</h2>
+    <p>All on sigma text</p>
+    <p>Sa oled beta male sul on 0 rizz negative game ja ma panen su empsi on a day to day basis</p>
+    
+    <div class="image-wrapper">
+        <img src="images.jpg" alt="homo">
+    </div>
+</main>
 
-nav a:hover {
-    text-decoration: underline;
-}
+<footer>
+    If it aint white it aint right
+</footer>
 
-main {
-    padding: 20px;
-    background-color: #fff;
-    max-width: 800px;
-    margin: 20px auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-main h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-main p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-main a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-main a:hover {
-    text-decoration: underline;
-}
-
-.image-wrapper {
-    width: 100%;      /* Võtab 100% konteineri laiusest */
-    max-width: 300px; /* Piirab pildi suurust laiemaks kui 300px ei lähe */
-    height: auto;     /* Säilitab pildi kuvasuhte */
-    margin: 20px auto;/* Keskendab pildi horisontaalselt */
-}
-
-ul {
-    margin: 15px 0;
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    font-size: 14px;
-    position: fixed;  /* Liikuv footer */
-    bottom: 0;        /* Asetab footer põhja */
-    width: 100%;      /* Tagab, et footer ulatub üle kogu ekraani laiuselt */
-}
+</body>
+</html>
