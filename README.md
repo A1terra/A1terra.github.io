@@ -28,7 +28,7 @@
 
 <header>
     <h1>Pljad mustad mehed</h1>
-    <p>Jarmo Prikmann</p>
+    <p>A1terra</p>
     <a href="#" class="button">Suvaline nupp</a>
 </header>
 
