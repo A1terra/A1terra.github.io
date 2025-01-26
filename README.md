@@ -42,7 +42,7 @@
 <main>
     <h2>Tervist</h2>
     <p>All on sigma text</p>
-    <p>Sa oled beta male sul on 0 rizz negative game ja ma panen su empsi on a day to day basis</p>
+    <p>Sa oled beta male sul on 0 rizz negative game ja ma künnan su empsi on a day to day basis</p>
     
     <div class="image-wrapper">
         <img src="images.jpg" alt="homo">
